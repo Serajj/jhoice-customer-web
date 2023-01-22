@@ -1,5 +1,0 @@
-export const FILTER_ALL = 'all'
-export const FILTER_AVAILABILITY = 'available'
-export const FILTER_RATING = 'rating'
-export const FILTER_FEATURED = 'featured'
-export const FILTER_POPULAR = 'popular'
