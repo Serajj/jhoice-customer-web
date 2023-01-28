@@ -1,3 +1,4 @@
+
 <template>
   <Heading :title='this.$filters.transString(this.page.title)' />
   <div id='custom-pages' class='bg-white'>

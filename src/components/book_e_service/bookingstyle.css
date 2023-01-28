@@ -1,0 +1,61 @@
+ .hide {
+     display: none;
+ }
+ 
+ .slot-timing p {
+     font-weight: bold;
+ }
+ 
+ .slot-timing .center {
+     text-align: center;
+ }
+ 
+ .slot-timing .card {
+     width: 100%;
+     background-color: #fefefe;
+     border-radius: 10px;
+     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+     padding: 20px;
+ }
+ 
+ .slot-timing .orange-card {
+     background-color: #f48420;
+     color: white;
+ }
+ 
+ .slot-timing .white-card {
+     background-color: white;
+     color: black;
+ }
+ 
+ .slot-timing .div2 {
+     width: 100%;
+     display: flex;
+     /* Use flexbox layout */
+     align-items: center;
+     background-color: #fefefe;
+     border-radius: 10px;
+     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+     padding: 20px;
+ }
+ 
+ .slot-timing .text {
+     flex: 1;
+     /* Take up all remaining space on the left side */
+ }
+ 
+ .slot-timing .button-container {
+     margin-left: auto;
+     /* Push the button container to the right side */
+ }
+ 
+ .slot-timing .rounded-button {
+     border-radius: 20px;
+     /* Add rounded corners to the button */
+     padding: 10px 20px;
+     /* Add some padding for the text */
+ }
+ 
+ .slot-timing {
+     padding: 5%;
+ }
