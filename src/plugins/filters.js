@@ -27,7 +27,7 @@ const filters = {
     },
     getFirstMediaThumb(object) {
         if (object?.media?.length > 0) {
-            return object.media[0].thumb
+            return object.media[0].url
         }
         return 'images/loading.gif'
     },

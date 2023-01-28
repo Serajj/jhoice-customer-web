@@ -121,7 +121,7 @@
               name="tab"
               value="igotnone"
               @click="
-                show1();
+                show2();
                 toggleCardColor('first_card');
               "
             />
@@ -134,7 +134,7 @@
               name="tab"
               value="igottwo"
               @click="
-                show2();
+                show1();
                 toggleCardColor('second_card');
               "
             />
