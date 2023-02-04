@@ -1,5 +1,4 @@
 <template>
-
   <div class='py-10 bg-accent-color-50'>
 
     <div class='flex justify-between items-center px-4 py-10 mx-auto max-w-7xl sm:px-6 lg:px-8'>

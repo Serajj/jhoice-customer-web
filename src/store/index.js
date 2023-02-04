@@ -26,6 +26,7 @@ const store = createStore({
         notification,
         customPage,
         upload,
+
     },
 })
 
