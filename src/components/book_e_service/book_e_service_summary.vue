@@ -168,6 +168,7 @@ export default {
     ...mapActions('bookEService', ['updateEServiceAction', 'addBookingAction']),
     ...mapActions('snackbar', ['toggleSnackBarAction']),
     addBooking(booking) {
+      console.log("bk");
       this.addBookingAction(booking).then(result => {
         if (result.type === 'success') {
           this.$router.push({ name: 'BookEService', params: { action: 'success', id: this.$route.params.id } })
