@@ -1,6 +1,7 @@
 import Home from '/src/views/Home.vue'
 import Categories from '/src/views/Categories.vue'
 import Help from '/src/views/Help.vue'
+import Referal from '/src/views/Referal.vue'
 import Category from '/src/views/Category.vue'
 import Login from '/src/views/Login.vue'
 import Register from '/src/views/Register.vue'
@@ -29,6 +30,7 @@ const routes = [
     { path: '/bookings/:action/wallet/:id', name: '/Wallet', component: Bookings, meta: { requiresAuth: true } },
     { path: '/bookings/:action/native/:id', name: 'Native', component: Bookings, meta: { requiresAuth: true } },
     { path: '/help/:id?', name: 'Help', component: Help },
+    { path: '/referal', name: 'Referal', component: Referal },
     { path: '/pages/:id', name: 'CustomPage', component: CustomPage },
 
 ]
