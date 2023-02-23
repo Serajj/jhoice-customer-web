@@ -3,9 +3,7 @@
     <div class="faq-card">
 
         <div class="faq-ilustrations">
-            <img class="mobile ilust" src="https://raw.githubusercontent.com/Romerof/FAQ-accordion-card/main/images/illustration-woman-online-mobile.svg">
-            </img>
-
+            <img class="mobile ilust" src="https://raw.githubusercontent.com/Romerof/FAQ-accordion-card/main/images/illustration-woman-online-mobile.svg"/>
             <!-- mobile -->
         </div>
 
@@ -225,14 +223,15 @@
 </div>
 <!-- card wrapper -->
 </template>
+
+
 <script>
-import Heading from '../components/category/heading.vue'
-import "./refferalstyle.css"
 
+import "./referralstyle.css"
 
-
-
-
-
+export default {
+  components: {
+  },
+}
 </script>
 
