@@ -1,49 +1,18 @@
 <template>
-    <div class="card-wrapper  | content-cc">
+<div class="card-wrapper  | content-cc">
     <div class="faq-card">
 
         <div class="faq-ilustrations">
-            <img class="mobile ilust" src="https://raw.githubusercontent.com/Romerof/FAQ-accordion-card/main/images/illustration-woman-online-mobile.svg"/>
+
+            <!-- mobile -->
+            <img class="mobile pattern" src="https://raw.githubusercontent.com/Romerof/FAQ-accordion-card/main/images/bg-pattern-mobile.svg">
+            
+            <img class="mobile ilust" src="https://raw.githubusercontent.com/Romerof/FAQ-accordion-card/main/images/illustration-woman-online-mobile.svg">
             <!-- mobile -->
         </div>
 
-        <!-- Project name -->
-      <div
-        class="px-4 space-y-1 sm:space-y-0 sm:grid sm:grid-cols-3 sm:gap-4 sm:px-6 sm:py-8"
-      >
-        <div>
-          <label
-            class="block text-sm font-medium text-second-color-600 sm:mt-px sm:pt-2"
-            for="project-name"
-          >
-            {{ $t("Coupon Code") }}
-          </label>
-        </div>
-        <div class="flex rounded-md sm:col-span-2" dir="ltr">
-          <div class="flex relative flex-grow items-stretch focus-within:z-10">
-            <input
-              id="coupon"
-              :placeholder="$t('COUPON')"
-              :value="booking.coupon.code"
-              class="block w-full rounded-none rounded-l-md border-gray-300 focus:ring-main-color-500 focus:border-main-color-500 sm:text-sm"
-              name="coupon"
-              type="text"
-              @input="updateCoupon"
-            />
-          </div>
-          <button
-            class="inline-flex relative items-center px-4 py-2 -ml-px space-x-2 text-sm font-medium text-gray-700 bg-gray-50 rounded-r-md border border-gray-300 hover:bg-gray-100 focus:outline-none focus:ring-1 focus:ring-main-color-500 focus:border-main-color-500"
-            type="button"
-            @click="validateCoupon(booking)"
-          >
-            {{ $t("Apply") }}
-          </button>
-        </div>
-      </div>
-      <!--End Project name -->
-
         <main class="faq-content">
-            <h1> Referral Program FAQS</h1>
+            <h1 style="text-align: center;"> FAQ</h1>
 
             <div class="faq-articles">
 
@@ -221,17 +190,13 @@
     <!-- faq card -->
 
 </div>
-<!-- card wrapper -->
 </template>
 
 
 <script>
-
-import "./referralstyle.css"
-
+import "./referralstyle.css";
 export default {
-  components: {
-  },
-}
+  components: {},
+};
 </script>
 
