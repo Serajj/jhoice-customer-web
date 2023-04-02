@@ -4,7 +4,7 @@
       <div class='flex-1 min-w-0'>
         <h2 class='py-3 text-xl font-bold lg:text-4xl text-second-color-600'>{{ $t('Recommended Services') }}</h2>
         <p class='text-sm sm:text-base text-second-color-400 sm:truncate'>
-          {{ $t('Recommended Services Subtitle') }}
+          <!-- {{ $t('Recommended Services Subtitle') }} -->
         </p>
       </div>
       <div class='flex mt-4 md:mt-0'>

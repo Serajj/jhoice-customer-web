@@ -10,7 +10,7 @@
         <li v-for='image in media' :key='image.id' class='relative'>
           <div
             class='group block w-full aspect-w-10 aspect-h-8 rounded-lg bg-gray-100 focus-within:ring-2 focus-within:ring-offset-2 focus-within:ring-offset-gray-100 focus-within:ring-main-color-500 overflow-hidden'>
-            <img :src='image.url' alt='' class='object-cover pointer-events-none group-hover:opacity-75' />
+            <img :src='image.original_url' alt='' class='object-cover pointer-events-none group-hover:opacity-75' />
             <button class='absolute inset-0 focus:outline-none' type='button'>
               <span class='sr-only'>{{ $t('View details for') }} {{ image.name }}</span>
             </button>

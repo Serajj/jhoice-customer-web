@@ -22,20 +22,20 @@ const filters = {
 
     getFirstMediaUrl(object) {
         if (object ?.media ?.length > 0) {
-            return object.media[0].url
+            return object.media[0].original_url
         }
         return 'images/loading.gif'
     },
     getFirstMediaThumb(object) {
         if (object ?.media ?.length > 0) {
-            return object.media[0].url
+            return object.media[0].original_url
         }
         return 'images/loading.gif'
     },
 
     getFirstMediaIcon(object) {
         if (object ?.media ?.length > 0) {
-            return object.media[0].icon
+            return object.media[0].original_url
         }
         return 'images/loading.gif'
     },

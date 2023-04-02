@@ -111,6 +111,86 @@
           </button>
         </div>
       </div>
+
+      <!-- Location  -->
+      <div
+        class="px-4 space-y-1 sm:space-y-0 sm:grid sm:grid-cols-3 sm:gap-4 sm:px-6 sm:py-8"
+      >
+        <div>
+          <label
+            class="block text-sm font-medium text-second-color-600 sm:mt-px sm:pt-2"
+            for="project-name"
+          >
+            {{ $t("Mode of Service") }}
+          </label>
+        </div>
+        <div class="flex rounded-md sm:col-span-2" dir="ltr">
+          <div
+            class="flex relative flex-grow items-stretch focus-within:z-10 modeofsvice"
+          >
+             <div>
+              <input
+                type="radio"
+                class="w-4 h-4 text-main-color-600 border-gray-300 focus:ring-main-color-500"
+                id="css"
+                name="mode"
+                value="online"
+              />
+                <label class="mdofslable" for="css">Service to be provided online.</label>
+            </div>
+             <br/>
+            <div>
+              <input
+                type="radio"
+                class="w-4 h-4 text-main-color-600 border-gray-300 focus:ring-main-color-500"
+                id="css"
+                name="mode"
+                value="offline"
+              />
+                <label class="mdofslable" for="css">Service will be provided offline.</label>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Project name -->
+      <div
+        class="px-4 space-y-1 sm:space-y-0 sm:grid sm:grid-cols-3 sm:gap-4 sm:px-6 sm:py-8"
+      >
+        <div>
+          <label
+            class="block text-sm font-medium text-second-color-600 sm:mt-px sm:pt-2"
+            for="project-name"
+          >
+            {{ $t("Location of Service") }}
+          </label>
+        </div>
+        <div class="flex rounded-md sm:col-span-2" dir="ltr">
+          <div class="flex relative flex-grow items-stretch focus-within:z-10 modeofsvice">
+            <div>
+              <input
+                type="radio"
+                class="w-4 h-4 text-main-color-600 border-gray-300 focus:ring-main-color-500"
+                id="css"
+                name="location"
+                value="home"
+              />
+               <label class="mdofslable" for="css">Provider come to your home.</label>
+            </div>
+              <br/>
+            <div>
+              <input
+                type="radio"
+                class="w-4 h-4 text-main-color-600 border-gray-300 focus:ring-main-color-500"
+                id="css"
+                name="location"
+                value="office"
+              />
+               <label class="mdofslable" for="css">You visit provider's office</label>
+            </div>
+          </div>
+        </div>
+      </div>
       <!--Accordian-->
       <div class="slot-timing">
         <div>
@@ -148,7 +228,6 @@
           <br />
           <br />
           <div id="div2" class="div2 hide datetimecontainer">
-            
             <div class="button-container">
               <div class="text">When you would like to meet us</div>
               <button class="rounded-button" @click="showDatePicker()">

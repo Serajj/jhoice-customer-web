@@ -7,7 +7,7 @@
           {{ $t('Featured Categories') }}
         </h2>
         <p class='text-sm sm:text-base text-second-color-400 sm:truncate'>
-          {{ $t('Featured Categories Subtitle') }}
+          <!-- {{ $t('Featured Categories Subtitle') }} -->
         </p>
       </div>
       <div class='flex mt-4 md:mt-0'>
